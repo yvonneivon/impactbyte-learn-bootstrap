@@ -12,43 +12,43 @@
 
 <body>
     <!--CAROUSEL-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
     </div>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -59,14 +59,16 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/assets/image/snowca.jpg" class="d-block w-100" alt="Snowca Rabbit" height="auto" width="100%">
+                <img src="/assets/image/snowca.jpg" class="d-block w-100" alt="Snowca Rabbit" height="auto"
+                    width="100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Meet Snowca!</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/assets/image/auggie.jpg" class="d-block w-100" alt="Auggie Rabbit" height="auto" width="100%">
+                <img src="/assets/image/auggie.jpg" class="d-block w-100" alt="Auggie Rabbit" height="auto"
+                    width="100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Meet Auggie!</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -90,39 +92,122 @@
         </a>
     </div>
     <!--MAIN-->
-    <hr>
-    <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 paddingnya">
-                    <img src="/assets/image/auggie.jpg" height="auto" width="100%">
-                </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 paddingnya">
-                    <img src="/assets/image/snowca.jpg" height="auto" width="100%">
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 paddingnya">
+                <img class="borderradius" src="/assets/image/auggie.jpg" height="auto" width="100%">
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 paddingnya">
+                <img class="borderradius" src="/assets/image/snowca.jpg" height="auto" width="100%">
             </div>
         </div>
     </div>
-    <hr>
+    </div>
+
     <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 paddingnya">
-                    <img src="/assets/image/auggie.jpg" height="auto" width="100%">
-                </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 paddingnya">
+                <img class="borderradius" src="/assets/image/auggie.jpg" height="auto" width="100%">
+            </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12 paddingnya">
-                    <img src="/assets/image/auggie.jpg" height="auto" width="100%">
-                </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 paddingnya">
+                <img class="borderradius" src="/assets/image/auggie.jpg" height="auto" width="100%">
+            </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12 paddingnya">
-                    <img src="/assets/image/auggie.jpg" height="auto" width="100%">
-                </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 paddingnya">
+                <img class="borderradius" src="/assets/image/auggie.jpg" height="auto" width="100%">
             </div>
         </div>
     </div>
+    </div>
+
     <!--FOOTER-->
     <footer>
-        <div class="footer1"></div>
+        <!--FOOTER 1-->
+        <div class="row rowfooter container-fluid">
+            <div class="col-lg-4 col-md-6 col-sm-12 kolom paddingnya">
+                <div class="kolom1">
+                    <div class="tnc text-footer">Term and Conditions
+                        <img src="./assets/image/tncicon.png" alt="Animal Lovers" width="5%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 kolom paddingnya">
+                <div class="kolom1">
+                    <div class="tnc text-footer">Customer Service
+                        <img src="./assets/image/csicon.png" alt="Animal Lovers" width="5%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 kolom paddingnya">
+                <div class="kolom1">
+                    <div class="tnc text-footer">Animal Care Indonesia
+                        <img src="./assets/image/rabbiticon.png" alt="Animal Lovers" width="5%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER 2-->
+        <div class="row rowfooter2 container-fluid">
+            <div class="col-lg-3 col-md-12 col-sm-12 kolom paddingnya">
+                <div class="kolom2">
+                    <div class="tnc2 text-footer2">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab cumque accusamus perferendis
+                            distinctio, ut aperiam, quam debitis maxime praesentium maiores non alias neque omnis quis
+                            quod sequi exercitationem, repudiandae esse.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 kolom paddingnya">
+                <div class="kolom2">
+                    <div class="tnc2 text-footer2">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nam officia, magnam
+                            dolor vitae commodi amet, animi dicta quod minima voluptate, exercitationem hic voluptatibus
+                            optio enim nulla eaque? Quos, necessitatibus?</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 kolom paddingnya">
+                <div class="kolom2">
+                    <div class="tnc2 text-footer2">
+                        <ul>Our Branch:
+                            <li>Jakarta</li>
+                            <li>Bali</li>
+                            <li>Bandung</li>
+                            <li>Surabaya</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 kolom paddingnya">
+                <div class="kolom2">
+                    <div class="tnc2 text-footer2">
+                        <ul>Member Of:
+                            <li>Animal Care Indonesia</li>
+                            <li>Bunnies Free Indonesia</li>
+                            <li>Jen & Charl Cattery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER 3-->
+
+        <div class="row rowfooter3 container-fluid">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="kolom3">&copy; 2020 HELLOYVONNE. All Rights Reserved.</div>
+            </div>
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
