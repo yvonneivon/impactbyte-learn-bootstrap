@@ -1,2 +1,9 @@
+.footer1 {
+    height: 100px;
+    width: 500px;
+    background-color: black;
+}
 
-
+.paddingnya {
+    padding: 10px;
+}
